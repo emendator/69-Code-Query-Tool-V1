@@ -1,0 +1,71 @@
+# ── Python ──
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+.python-version
+
+# ── Node.js ──
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-store/
+
+# ── Frontend build ──
+frontend/dist/
+frontend/.vite/
+*.tsbuildinfo
+
+# ── IDE / Editor ──
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── 服务器本地环境变量（含生产密钥，禁止入库） ──
+.env
+*.env
+!*.env.example
+.DS_Store
+Thumbs.db
+
+# ── Project data (user-uploaded files & SQLite DB) ──
+data/
+*.db
+*.sqlite3
+*.xlsx
+*.xls
+*.csv
+
+# ── Logs ──
+logs/
+*.log
+
+# ── 工作日报（内部文档，不提交到 GitHub）──
+工作日报/
+
+# ── Office 临时 / 备份文件 ──
+~$*
+*.bak
+
+# ── OS ──
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Environment ──
+.env
+.env.local
+.env.*.local
+
+# ── Test / temp ──
+test_*.py
+tmp/
+temp/

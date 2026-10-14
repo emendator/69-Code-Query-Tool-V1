@@ -1,0 +1,12 @@
+fastapi>=0.100.0
+uvicorn[standard]>=0.20.0
+sqlalchemy>=2.0
+pandas>=2.0
+openpyxl>=3.1
+python-multipart>=0.0.5
+passlib[bcrypt]>=1.7.4
+# passlib 1.7.4 与 bcrypt>=4.0 不兼容（bcrypt 5.0 移除 __about__ 导致 passlib 无法识别版本而崩溃）
+# 必须锁定 bcrypt==3.2.2
+bcrypt==3.2.2
+python-jose[cryptography]>=3.3.0
+email-validator>=2.0
